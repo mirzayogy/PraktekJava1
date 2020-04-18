@@ -10,6 +10,14 @@ public class DataTypes{
   char nilaiAbjad = 'A';
   boolean tampan = true;
 
+  System.out.println("Nama depan : " + namaDepan);
+  System.out.println("Nama tengah : " + namaTengah);
+  System.out.println("Nama belakang : " + namaBelakang);
+  System.out.println("Usia : " + usia);
+  System.out.println("Target Kuliah : " + targetTahunKuliah + " tahun");
+  System.out.println("IPK : " + ipk);
+  System.out.println("Nilai PBO : " + nilaiAbjad);
+  System.err.println("Tampan : " + tampan);
  }
 }
 
