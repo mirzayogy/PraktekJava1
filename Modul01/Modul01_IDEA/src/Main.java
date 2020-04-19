@@ -12,7 +12,11 @@ public class Main {
         String namaLengkap = namaDepan + " " +
                 namaTengah + " " + namaBelakang;
         System.out.println(namaLengkap);
-                
+
+        char[] uniskaChar = {'U','N','I','S','K','A'};
+        String uniskaString = new String(uniskaChar);
+        System.out.println(uniskaString);
+
     }
 }
 
