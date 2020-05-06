@@ -1,4 +1,6 @@
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class GuiByText extends JFrame {
 
@@ -25,9 +27,20 @@ public class GuiByText extends JFrame {
         button1.setBounds(232,32,80,25);
     }
 
+    void menambahkanListener(){
+        button1.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                String nama = textField1.getText();
+                JOptionPane.showMessageDialog(null,"Hai " + nama);
+            }
+        });
+    }
+
     public static void main(String[] args) {
         GuiByText guiByText = new GuiByText();
         guiByText.meletakkanKomponen();
+        guiByText.menambahkanListener();
         guiByText.setVisible(true);
     }
 }
