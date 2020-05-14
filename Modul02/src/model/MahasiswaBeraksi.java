@@ -14,9 +14,9 @@ public class MahasiswaBeraksi {
         System.out.println("Tanggal Lahir \t : " + mahasiswa.tanggalLahir);
 
         Mahasiswa mahasiswa2 = new Mahasiswa();
-        mahasiswa.npm = "19638888";
-        mahasiswa.nama = "Delapu";
-        mahasiswa.tanggalLahir = new Date();
+        mahasiswa2.npm = "19638888";
+        mahasiswa2.nama = "Delapu";
+        mahasiswa2.tanggalLahir = new Date();
 
         System.out.println("Nama \t\t\t : " + mahasiswa2.nama);
         System.out.println("NPM \t\t\t : " + mahasiswa2.npm);
