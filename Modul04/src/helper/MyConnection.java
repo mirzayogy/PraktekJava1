@@ -26,4 +26,9 @@ public class MyConnection {
         }
 
     }
+
+    public static void main(String[] args) {
+        MyConnection myConnection = new MyConnection();
+        myConnection.getConnection();
+    }
 }
