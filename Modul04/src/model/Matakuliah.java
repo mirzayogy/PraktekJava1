@@ -18,5 +18,51 @@ public class Matakuliah {
         this.aktif = aktif;
     }
 
-    
+    public int getIdMatakuliah() {
+        return idMatakuliah;
+    }
+
+    public void setIdMatakuliah(int idMatakuliah) {
+        this.idMatakuliah = idMatakuliah;
+    }
+
+    public String getNamaMatakuliah() {
+        return namaMatakuliah;
+    }
+
+    public void setNamaMatakuliah(String namaMatakuliah) {
+        this.namaMatakuliah = namaMatakuliah;
+    }
+
+    public String getSingkatanMatakuliah() {
+        return singkatanMatakuliah;
+    }
+
+    public void setSingkatanMatakuliah(String singkatanMatakuliah) {
+        this.singkatanMatakuliah = singkatanMatakuliah;
+    }
+
+    public String getNamaDosen() {
+        return namaDosen;
+    }
+
+    public void setNamaDosen(String namaDosen) {
+        this.namaDosen = namaDosen;
+    }
+
+    public String getKontakDosen() {
+        return kontakDosen;
+    }
+
+    public void setKontakDosen(String kontakDosen) {
+        this.kontakDosen = kontakDosen;
+    }
+
+    public boolean isAktif() {
+        return aktif;
+    }
+
+    public void setAktif(boolean aktif) {
+        this.aktif = aktif;
+    }
 }
