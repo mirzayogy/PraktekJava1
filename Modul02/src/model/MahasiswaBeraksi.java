@@ -19,11 +19,8 @@ public class MahasiswaBeraksi {
         mahasiswa.menyapa();
         System.out.println("Usiaku : " + mahasiswa.hitungUsia() + " tahun");
 
-        Mahasiswa mahasiswa2 = new Mahasiswa();
-        mahasiswa2.npm = "19638888";
-        mahasiswa2.nama = "Delapu";
-        mahasiswa2.tanggalLahir = simpleDateFormat.parse("08-08-2008");
-
+        Mahasiswa mahasiswa2 = new Mahasiswa("19638888","Delapu","08-08-2008");
         mahasiswa2.tampilkanAtribut();
+
     }
 }
