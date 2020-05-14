@@ -32,7 +32,7 @@ public class Mahasiswa {
         }
     }
 
-    void tampilkanAtribut(){
+    public void tampilkanAtribut(){
         System.out.println("Nama \t\t\t : " + this.nama);
         System.out.println("NPM \t\t\t : " + this.npm);
         System.out.println("Tanggal Lahir \t : " + SDF.format(this.tanggalLahir));
