@@ -8,5 +8,9 @@ public class MahasiswaBeraksi {
         mahasiswa.npm = "19639999";
         mahasiswa.nama = "Sembilu";
         mahasiswa.tanggalLahir = new Date();
+
+        System.out.println("Nama \t\t\t : " + mahasiswa.nama);
+        System.out.println("NPM \t\t\t : " + mahasiswa.npm);
+        System.out.println("Tanggal Lahir \t : " + mahasiswa.tanggalLahir);
     }
 }
